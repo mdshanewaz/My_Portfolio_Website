@@ -1,3 +1,3 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" fill="" width="100%" height="90" viewBox="0 0 50 50" preserveAspectRatio="none" style="height: px;">
-    <polygon class="fil0" points="0,50 50,50 50,0"></polygon>
+	<polygon class="fil0" points="0,50 50,50 50,0"></polygon>
 </svg>

@@ -432,7 +432,7 @@ var breakpoints = eae.breakpoints;
         };
 
         var ParticlesBG = function ($scope, $) {
-
+            console.log("Called");
             if ($scope.hasClass('eae-particle-yes')) {
                 id = $scope.data('id');
                 element_type = $scope.data('element_type');
@@ -449,7 +449,6 @@ var breakpoints = eae.breakpoints;
                         } else {
                             $scope.prepend('<div class="eae-particle-wrapper " id="eae-particle-' + id + '"></div>');
                         }
-
                         particlesJS('eae-particle-' + id, pdata);
                     }
 
@@ -471,6 +470,87 @@ var breakpoints = eae.breakpoints;
             }
 
         };
+
+        // var ParticlesBG = function ($scope, $) {
+
+        //     if ($scope.hasClass('eae-particle-yes')) {
+        //         const wId  = $scope.data('id'); 
+        //         const wrapper = document.querySelector('.elementor-element-'+wId);
+        //         //outerWrapper = wrapper.querySelector('.fv-dp-outer-wrapper');
+        //         id = $scope.data('id');
+                
+        //         element_type = wrapper.getAttribute('data-element_type');
+        //         is_edit_mode = wrapper.classList.contains('elementor-element-edit-mode');
+        //         console.log(is_edit_mode);
+        //         pdata = wrapper.getAttribute('data-eae-particle');
+        //         if(is_edit_mode){
+        //             pdata_wrapper = wrapper.querySelector('.eae-particle-wrapper').getAttribute('data-eae-pdata');
+        //             pdata_wrapper = JSON.parse(pdata_wrapper);
+        //         }
+                
+        //         if (typeof pdata != 'undefined' && pdata != null) {
+        //             var bsElement = wrapper.querySelector('.eae-section-bs');
+        //             if (bsElement) {
+        //                 console.log("BS Inner");
+        //                 var particleDiv = document.createElement("div");
+        //                 particleDiv.setAttribute('class' , 'eae-particle-wrapper');
+        //                 particleDiv.setAttribute('id' , "eae-particle-" + id);
+        //                 var bsElement = wrapper.querySelector('.eae-section-bs');
+        //                 bsElement.after(particleDiv);
+        //                 tsParticles.load("eae-particle-" + id, JSON.parse(pdata));
+        //             } else {
+        //                 if (element_type == 'column') {
+        //                     var particleDiv = document.createElement("div");
+        //                     particleDiv.setAttribute('class' , 'eae-particle-wrapper');
+        //                     particleDiv.setAttribute('id' , "eae-particle-" + id);
+        //                     wrapper.prepend(particleDiv);
+        //                 } else {
+        //                     var particleDiv = document.createElement("div");
+        //                     particleDiv.setAttribute('class' , 'eae-particle-wrapper');
+        //                     particleDiv.setAttribute('id' , "eae-particle-" + id);
+        //                     wrapper.prepend(particleDiv);
+        //                 }
+        //                 //console.log(tsParticles.load('particles' , {}));
+        //                 // pdata = JSON.parse(pdata);
+        //                 tsParticles.load("eae-particle-" + id, JSON.parse(pdata));
+        //                 //particlesJS('eae-particle-' + id, pdata);
+        //             }
+        //         } else if (typeof pdata_wrapper != 'undefined' && pdata_wrapper != null) {
+        //             console.log('Editor');
+        //             console.log(element_type);
+        //             // $scope.prepend('<div class="eae-particle-wrapper" id="eae-particle-'+ id +'"></div>');
+        //             //console.log('calling particle js else', JSON.parse(pdata_wrapper));
+        //             var bsElement = wrapper.querySelector('.eae-section-bs');
+        //             if (bsElement) {
+        //                 console.log("BS Inner");
+        //                 var particleDiv = document.createElement("div");
+        //                 particleDiv.setAttribute('class' ,  'eae-particle-areas');
+        //                 particleDiv.setAttribute('id' , "eae-particle-" + id);
+        //                 var bsElement = wrapper.querySelector('.eae-section-bs');
+        //                 bsElement.after(particleDiv);
+        //                 tsParticles.load("eae-particle-" + id, pdata_wrapper);
+        //             }else{
+        //                 if (element_type == 'column') {
+        //                     $scope.prepend('<div class="eae-particle-wrapper eae-particle-area" id="eae-particle-' + id + '"></div>');
+        //                 }
+        //                 else{
+        //                     console.log('Editor Section');
+        //                         console.log(pdata_wrapper);
+        //                         var particleDiv = document.createElement("div");
+        //                         particleDiv.setAttribute('class' ,  'eae-particle-areas');
+        //                         particleDiv.setAttribute('id' , "eae-particle-" + id);
+        //                         wrapper.prepend(particleDiv);
+        //                         // $scope.prepend('<div class="eae-particle-wrapper eae-particle-area" id="eae-particle-' + id + '"></div>');
+        //                 }
+        //                 tsParticles.load("eae-particle-" + id, pdata_wrapper);
+        //             }
+                    
+        //             //particlesJS('eae-particle-' + id, JSON.parse(pdata_wrapper));
+        //         }
+
+        //     }
+
+        // };
 
 
         /*EAE Animated Gradient Background*/

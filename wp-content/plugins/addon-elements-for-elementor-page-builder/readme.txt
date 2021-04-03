@@ -2,8 +2,8 @@
 Contributors: wpvibes, ritikasolanki, satishprajapati, hardiksharma
 Tags: elementor, elements, addons, elementor addon, elementor widget, page-builder, wordpress page builder
 Requires at least: 5.0
-Requires PHP: 7
-Tested up to: 5.7
+Requires PHP: 5.7
+Tested up to: 5.6
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -99,6 +99,12 @@ Column gap => No gap
 3. /assets/screenshot-4.png
 
 == Changelog ==
+
+= 1.11.3 = 
+* Fixed: Compatibility issue with PHP 7.2 or lower after previous release. 
+
+= 1.11.2 = 
+* Fixed: Sanitized options in the editor to enforce better security policies
 
 = 1.11.1 =
 * Fixed: Conditionally loading JS files only when related widget is used. 
