@@ -100,6 +100,12 @@ Column gap => No gap
 
 == Changelog ==
 
+= 1.11.5 = 
+* Fixed: Admin Notice Fixed. 
+
+= 1.11.4 = 
+* Fixed: Features image not visible in Post List widget. 
+
 = 1.11.3 = 
 * Fixed: Compatibility issue with PHP 7.2 or lower after previous release. 
 
