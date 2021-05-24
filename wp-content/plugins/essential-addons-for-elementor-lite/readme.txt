@@ -1,10 +1,10 @@
 === Essential Addons for Elementor ===
-Contributors: wpdevteam, Codetic, re_enter_rupok, Asif2BD, priyomukul, mahfuz01, manzurahammed
+Contributors: wpdevteam, Codetic, re_enter_rupok, Asif2BD, priyomukul, manzurahammed
 Tags: elementor, elements, addons, elementor addons, elementor widget, elementor form, woocommerce elementor, page builder, builder, visual editor, wordpress page builder
 Requires at least: 5.0
-Tested up to: 5.7
+Tested up to: 5.7.2
 Requires PHP: 5.6
-Stable tag: 4.6.3
+Stable tag: 4.7.0
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -19,7 +19,7 @@ Enhance your [Elementor](https://wordpress.org/plugins/elementor/) page building
 
 https://www.youtube.com/watch?v=uuyXfUDqRZM
 
-### 100+ Ready Blocks and Templates through **Templately**
+### 1000+ Ready Blocks and Templates through **Templately**
 Use pre-made templates and sections which comes with Essential Addons and design your website to stand out from the crowd.
 
 [Install Templately to get the premade blocks and templates](https://wordpress.org/plugins/templately/)
@@ -43,7 +43,7 @@ We have extra-ordinary support team ready to help you. Ask your questions in the
 
 ### 40+ FREE WIDGETS AND COUNTING
 
-We have designed 42 of the most useful widgets to enhance your Elementor Page Building experience and allow you to climb the top of your design capabilities.
+We have designed 43 of the most useful widgets to enhance your Elementor Page Building experience and allow you to climb the top of your design capabilities.
 
 1. [Post Grid](https://essential-addons.com/elementor/post-grid/) - Showcase your blog posts in 4 unique styles 
 2. [Post Timeline](https://essential-addons.com/elementor/post-timeline/) - Create stunning timeline for your Posts, Pages or any Custom Post. 
@@ -88,10 +88,11 @@ We have designed 42 of the most useful widgets to enhance your Elementor Page Bu
 41. [Login | Register Form](https://essential-addons.com/elementor/login-register-form/) - Create amazing and attractive login or registration forms in Elementor 
 42. [Woo Product Compare](https://essential-addons.com/elementor/woo-product-compare/) - Create stunning WooCommerce Product Compare table instantly
 43. [Woo Product Carousel](https://essential-addons.com/elementor/woo-product-carousel/) - Design amazing WooCommerce Product Carousel with ease
+44. [Simple Menu](https://essential-addons.com/elementor/simple-menu/)- Design beautiful Navigation menu for your WordPress site quite easily
 
 
 
-### More elements (29+) on [Premium Version](https://wpdeveloper.net/in/upgrade-essential-addons-elementor)
+### More elements (30+) on [Premium Version](https://wpdeveloper.net/in/upgrade-essential-addons-elementor)
 
 1. [Post Block (Flex)](https://essential-addons.com/elementor/post-block/) - Display your blog posts with variety of styles with the power of modern CSS Flexbox
 2. [Lightbox & Modal](https://essential-addons.com/elementor/lightbox-modal/) - Create Modal Popup which opens after certain actions.
@@ -122,6 +123,7 @@ We have designed 42 of the most useful widgets to enhance your Elementor Page Bu
 27. [Offcanvas Content](https://essential-addons.com/elementor/offcanvas-content/) - Display content in off canvas and show them with button/element click
 28. [Advanced Menu](https://essential-addons.com/elementor/advanced-menu/) - Use advanced navigation menu anywhere. Choose design from different skins and customize.
 29. [Image Scroller](https://essential-addons.com/elementor/image-scroller/) - Show your panoramic or long height images within image scroller widget.
+30. [Woo Product Slider](https://essential-addons.com/elementor/woo-product-slider/) - Showcase your WooCommerce Product Slider in a stunning way
 
 
 Extensions (Free): 
@@ -222,6 +224,32 @@ Your existing elements/content will work with premium version. So you won't lose
 
 
 == Changelog ==
+
+= 4.7.0 - 24/05/2021 =
+
+- Added: EA Simple Menu widget
+
+= 4.6.6 - 09/05/2021 =
+
+- Fixed: EA Image Accordion | Overlay, hover overlay, and title color not changing
+- Fixed: HTML(inline CSS) not working in multiple widgets
+- Few minor bug fix and improvements
+
+= 4.6.5 - 05/05/2021 =
+
+- Improved: AJAX requests for Security Enhancement
+- Few minor bug fix and improvements
+
+= 4.6.4 - 03/05/2021 =
+
+- Improved: Query Optimization in dynamic widgets
+- Improved: Refactored code for Security Enhancement
+- Added: EA Data Table | Added ‘icon’ option in Content Type
+- Fixed: Conflict with swiperJS
+- Fixed: EA Creative Button | issues with the tab view and default styles 
+- Fixed: EA Product Grid | Product header tag not being changeable
+- Fixed: EA Facebook Feed | different page ID's showing same content
+- Few minor bug fix and improvements
 
 = 4.6.3 - 25/04/2021 =
 

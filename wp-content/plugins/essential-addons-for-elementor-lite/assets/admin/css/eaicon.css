@@ -277,6 +277,7 @@
 }
 
 .eaicon-product-carousel:before {
+	font-size: 40px;
 	content: "\e954";
 }
 
@@ -290,4 +291,13 @@
 
 .eaicon-crowdfundly-single-campaign:before {
 	content: "\e957";
+}
+
+.eaicon-product-slider:before {
+	font-size: 39px;
+	content: "\e958";
+}
+
+.eaicon-simple-menu:before {
+	content: "\e959";
 }
