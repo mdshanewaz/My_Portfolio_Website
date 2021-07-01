@@ -328,7 +328,7 @@ body {
 	height: 31px;
 	overflow: hidden;
 	border: none;
-	background-image: url('https://mdshanewaz.github.io/My_Portfolio_Website/wp-content/plugins/wpforms-lite/assets/images/times-circle.svg');
+	background-image: url('./../images/times-circle.svg');
 	opacity: 0.5;
 	transition: all .3s;
 }
@@ -772,7 +772,7 @@ body {
 }
 
 #wpforms-builder .wpforms-panel-content-section-default {
-	background: url(https://mdshanewaz.github.io/My_Portfolio_Website/wp-content/plugins/wpforms-lite/assets/images/builder-default-arrow.png) no-repeat;
+	background: url(./../images/builder-default-arrow.png) no-repeat;
 	background-size: 148px 140px;
 	background-position: 50px 40px;
 	text-align: center;

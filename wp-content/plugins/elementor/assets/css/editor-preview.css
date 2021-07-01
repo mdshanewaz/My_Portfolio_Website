@@ -1,4 +1,4 @@
-/*! elementor - v3.2.4 - 26-05-2021 */
+/*! elementor - v3.2.5 - 16-06-2021 */
 @charset "UTF-8";
 .elementor-control-unit-1 {
   width: 27px; }
@@ -693,13 +693,13 @@ a.elementor-responsive-switcher {
   margin-bottom: 5px; }
 
 .elementor-group-control-blur .elementor-slider {
-  background: url("https://mdshanewaz.github.io/My_Portfolio_Website/wp-content/plugins/elementor/assets/images/blur.png");
+  background: url("./../images/blur.png");
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center; }
 
 .elementor-group-control-contrast .elementor-slider {
-  background: url("https://mdshanewaz.github.io/My_Portfolio_Website/wp-content/plugins/elementor/assets/images/contrast.png");
+  background: url("./../images/contrast.png");
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%; }
 

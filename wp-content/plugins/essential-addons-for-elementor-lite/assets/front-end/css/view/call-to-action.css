@@ -68,7 +68,7 @@
 }
 
 .eael-call-to-action.bg-img {
-  background-image: url("https://mdshanewaz.github.io/My_Portfolio_Website/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/img/bg.jpg");
+  background-image: url("./../img/bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

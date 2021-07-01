@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "eaicon";
-	src: url("https://mdshanewaz.github.io/My_Portfolio_Website/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/fonts/eaicon.eot?krajj6");
-	src: url("https://mdshanewaz.github.io/My_Portfolio_Website/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/fonts/eaicon.eot?krajj6#iefix") format("embedded-opentype"),
-		url("https://mdshanewaz.github.io/My_Portfolio_Website/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/fonts/eaicon.ttf?krajj6") format("truetype"),
-		url("https://mdshanewaz.github.io/My_Portfolio_Website/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/fonts/eaicon.woff?krajj6") format("woff"),
-		url("https://mdshanewaz.github.io/My_Portfolio_Website/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/fonts/eaicon.svg?krajj6#eaicon") format("svg");
+	src: url("./../fonts/eaicon.eot?krajj6");
+	src: url("./../fonts/eaicon.eot?krajj6#iefix") format("embedded-opentype"),
+		url("./../fonts/eaicon.ttf?krajj6") format("truetype"),
+		url("./../fonts/eaicon.woff?krajj6") format("woff"),
+		url("./../fonts/eaicon.svg?krajj6#eaicon") format("svg");
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
